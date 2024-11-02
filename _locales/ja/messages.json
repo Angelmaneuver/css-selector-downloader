@@ -1,0 +1,53 @@
+{
+  "Extension_Name": {
+    "message": "CSSセレクター ダウンローダー"
+  },
+  "Extension_Description": {
+    "message": "CSSセレクターを用いて表示しているWebページ上のリンクのある要素を指定し、一括ダウンロードすることが出来ます。"
+  },
+  "CSS_SELECTOR_DOWNLOADER_ERROR": {
+    "message": "エラー"
+  },
+  "CSS_SELECTOR_DOWNLOADER_ONLY_WEBSITE_MESSAGE": {
+    "message": "この拡張機能はWebサイトでのみご利用になれます。"
+  },
+  "CSS_SELECTOR_DOWNLOADER_TITLE_CSS_SELECTOR": {
+    "message": "CSSセレクター"
+  },
+  "CSS_SELECTOR_DOWNLOADER_DESCRIPTION_CSS_SELECTOR": {
+    "message": "ダウンロードしたいリンクを持つ要素を列挙する条件を入力してください。"
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_QUERY": {
+    "message": "クエリー"
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_ATTRIBUTE": {
+    "message": "属性"
+  },
+  "CSS_SELECTOR_DOWNLOADER_BUTTON_SCAN": {
+    "message": "スキャン"
+  },
+  "CSS_SELECTOR_DOWNLOADER_FORM_ERROR_INVALID_QUERY_MESSAGE": {
+    "message": "入力されたクエリーは妥当ではありません。"
+  },
+  "CSS_SELECTOR_DOWNLOADER_TITLE_DOWNLOAD": {
+    "message": "ダウンロード"
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_IS_CHANGE_FILENAME": {
+    "message": "ファイル名を変更する"
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_FILENAME": {
+    "message": "ファイル名"
+  },
+  "CSS_SELECTOR_DOWNLOADER_DESCRIPTION_FILENAME": {
+    "message": "ダウンロードファイルは入力されたファイル名 + 連番で保存されます。"
+  },
+  "CSS_SELECTOR_DOWNLOADER_DESCRIPTION_DOWNLOAD": {
+    "message": "CSSセレクターで指定した条件に該当する要素のリンク先ファイルをダウンロードします。"
+  },
+  "CSS_SELECTOR_DOWNLOADER_BUTTON_DOWNLOAD": {
+    "message": "ダウンロード"
+  },
+  "CSS_SELECTOR_DOWNLOADER_FORM_ERROR_REQUIRED_FILENAME_MESSAGE": {
+    "message": "ファイル名を入力してください。"
+  }
+}

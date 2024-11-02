@@ -1,0 +1,53 @@
+{
+  "Extension_Name": {
+    "message": "CSS Selector Downloader"
+  },
+  "Extension_Description": {
+    "message": "You can use the CSS Selector to specify elements with links on the displayed web page and download them all at once."
+  },
+  "CSS_SELECTOR_DOWNLOADER_ERROR": {
+    "message": "Error"
+  },
+  "CSS_SELECTOR_DOWNLOADER_ONLY_WEBSITE_MESSAGE": {
+    "message": "This extension is only available on the website."
+  },
+  "CSS_SELECTOR_DOWNLOADER_TITLE_CSS_SELECTOR": {
+    "message": "CSS Selector"
+  },
+  "CSS_SELECTOR_DOWNLOADER_DESCRIPTION_CSS_SELECTOR": {
+    "message": "Enter the condition to enumerate elements with downloaded links."
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_QUERY": {
+    "message": "Query"
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_ATTRIBUTE": {
+    "message": "Attribute"
+  },
+  "CSS_SELECTOR_DOWNLOADER_BUTTON_SCAN": {
+    "message": "Scan"
+  },
+  "CSS_SELECTOR_DOWNLOADER_FORM_ERROR_INVALID_QUERY_MESSAGE": {
+    "message": "The query entered is not valid."
+  },
+  "CSS_SELECTOR_DOWNLOADER_TITLE_DOWNLOAD": {
+    "message": "Download"
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_IS_CHANGE_FILENAME": {
+    "message": "Rename the file"
+  },
+  "CSS_SELECTOR_DOWNLOADER_LABEL_FILENAME": {
+    "message": "Filename"
+  },
+  "CSS_SELECTOR_DOWNLOADER_DESCRIPTION_FILENAME": {
+    "message": "The download file is saved with the entered file name + sequential number."
+  },
+  "CSS_SELECTOR_DOWNLOADER_DESCRIPTION_DOWNLOAD": {
+    "message": "Downloaded the linked files for elements that meet the criteria specified in the CSS Selector."
+  },
+  "CSS_SELECTOR_DOWNLOADER_BUTTON_DOWNLOAD": {
+    "message": "Download"
+  },
+  "CSS_SELECTOR_DOWNLOADER_FORM_ERROR_REQUIRED_FILENAME_MESSAGE": {
+    "message": "Please enter a file name."
+  }
+}

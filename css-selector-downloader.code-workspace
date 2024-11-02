@@ -1,0 +1,80 @@
+{
+  "folders": [
+    {
+      "name": "CSS Selector Downloader",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": true
+    },
+    "typescript.tsc.autoDetect": "off",
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "json.schemas": [
+      {
+        "fileMatch": ["manifest.json", "manifest.config.ts"],
+        "url": "https://json.schemastore.org/chrome-manifest.json"
+      }
+    ],
+    "svg.preview.background": "editor"
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "pnpm: dev",
+        "command": "pnpm run dev",
+        "type": "shell",
+        "args": [],
+        "problemMatcher": {
+          "base": "$tsc",
+          "background": {
+            "activeOnStart": false,
+            "beginsPattern": "^> vite",
+            "endsPattern": "^.*VITE v.*ready.*$"
+          }
+        },
+        "presentation": {
+          "reveal": "always"
+        },
+        "group": "build",
+        "isBackground": true
+      }
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Google Chrome",
+        "preLaunchTask": "pnpm: dev"
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "mosapride.zenkaku",
+      "christian-kohler.path-intellisense",
+      "biomejs.biome",
+      "bradlc.vscode-tailwindcss"
+    ]
+  }
+}
