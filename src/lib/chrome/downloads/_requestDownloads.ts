@@ -2,7 +2,7 @@ function requestDownloads(
   tab: chrome.tabs.Tab,
   urls: Array<string>,
   template?: string,
-): void {
+): Promise<void> {
   const site = new URL(tab.url!);
 
   const downloadlinks = urls.map((url) => {
@@ -19,7 +19,10 @@ function requestDownloads(
     return downloadlink.href;
   });
 
-  chrome.runtime.sendMessage({ urls: downloadlinks, template: template });
+  return chrome.runtime.sendMessage({
+    urls: downloadlinks,
+    template: template,
+  });
 }
 
 export default requestDownloads;

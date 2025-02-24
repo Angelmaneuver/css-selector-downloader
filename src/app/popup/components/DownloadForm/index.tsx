@@ -65,12 +65,12 @@ function DownloadForm({
         tab,
         downloadlinks,
         data.isChangeFilename ? data.filename : undefined,
-      );
+      ).then(() => {
+        set({ isChangeFilename: data.isChangeFilename });
 
-      set({ isChangeFilename: data.isChangeFilename });
+        window.close();
+      });
     }
-
-    window.close();
   }
 
   useEffect(() => {
